@@ -1,29 +1,56 @@
-# Analytics Workstation
+# Analytics Lab
 
-Configuration and documentation for a cross-platform analytics and development environment.
+A mulit-system analytics and infrastructure environment built to develop practical skills across Windows, macOS, Linux, Python, SQL, Git, and remote administration.
 
-## Workstations
+## Systems
 
-### Nomad — Windows
+### Nomad
 
-- Windows
-- PowerShell 7
-- Git / GitHub
-- Visual Studio Code
+WIndows analytics workstation focused on:
+
+- Power Bi
+- Excel
 - Python
-- Microsoft Excel
-- Power BI Desktop
+- SQL
+- Git
+- PowerShell
+- Remote Linx administration
 
-### Mac M4 Pro — macOS / Apple Silicon
+### Mac
 
-- macOS
-- zsh
-- Homebrew
-- Git / GitHub
-- Visual Studio Code
-- Python 3.14
-- Jupyter
+macOS analytics and development workstation focused on:
 
-## Purpose
+- Python
+- Unix Tooling
+- Git
+- Development workflows
+- Infrastructure preparation
 
-Build a portable analytics environment where projects can move between Windows and macOS through GitHub while each machine is used for the workloads it handles best.
+### Ichabod
+
+Headless Linux server planned for:
+
+- Databases
+- Python workloads
+- Automation
+- Services
+- Containers
+- Remote development
+
+### Gimperihno
+
+Secondary non-critical storage for testing and expendable workloads.
+
+## Architecture
+
+Nomad and Mac serve as development and administration clients.
+
+Ichabod provides Linux-based server services and remote compute/storage capabilities.
+
+GitHub acts as the shared version-control layer across the environment.
+
+## Current Projects
+
+- SQL-Python
+- Analytics Lab
+- Ichabod build and deployment
